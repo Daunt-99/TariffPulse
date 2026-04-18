@@ -1,0 +1,27 @@
+[
+  {
+    "id": "react-001",
+    "event_id": "evt-2026-advanced-manufacturing",
+    "sector": "Industrials",
+    "window_start": "2026-04-09",
+    "window_end": "2026-04-24",
+    "abnormal_return": -1.14,
+    "cumulative_abnormal_return": -2.84,
+    "volume_spike": 1.37,
+    "volatility_spike": 1.21,
+    "lag_label": "immediate"
+  },
+  {
+    "id": "react-002",
+    "event_id": "evt-2026-advanced-manufacturing",
+    "sector": "Information Technology",
+    "window_start": "2026-04-09",
+    "window_end": "2026-04-24",
+    "abnormal_return": -0.42,
+    "cumulative_abnormal_return": -1.18,
+    "volume_spike": 1.12,
+    "volatility_spike": 1.06,
+    "lag_label": "lagged"
+  }
+]
+
