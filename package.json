@@ -1,0 +1,17 @@
+{
+  "name": "tariff-shock-intelligence-system",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @tariff-shock/web",
+    "build:web": "npm run build --workspace @tariff-shock/web",
+    "lint:web": "npm run lint --workspace @tariff-shock/web",
+    "typecheck:web": "npm run typecheck --workspace @tariff-shock/web",
+    "format:web": "npm run format --workspace @tariff-shock/web"
+  }
+}
+

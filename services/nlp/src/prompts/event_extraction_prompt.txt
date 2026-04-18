@@ -1,0 +1,21 @@
+You are extracting a tariff-related policy event into structured JSON.
+
+Document:
+{document_text}
+
+NER pre-pass:
+{ner_result}
+
+Return strict JSON containing:
+- title
+- summary
+- countries
+- goods
+- tariff_rate
+- event_date
+- severity_score
+- sectors
+- event_category
+
+Do not add prose outside JSON.
+

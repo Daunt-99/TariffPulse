@@ -1,0 +1,10 @@
+[
+  {
+    "id": "alert-001",
+    "email": "research@tariffshock.local",
+    "sectors": ["Industrials", "Materials"],
+    "minimum_severity": 0.6,
+    "lag_labels": ["immediate", "lagged"],
+    "delivery_channel": "email"
+  }
+]

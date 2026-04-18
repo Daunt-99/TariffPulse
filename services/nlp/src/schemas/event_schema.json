@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "summary": { "type": "string" },
+    "countries": { "type": "array", "items": { "type": "string" } },
+    "goods": { "type": "array", "items": { "type": "string" } },
+    "tariff_rate": { "type": ["number", "null"] },
+    "event_date": { "type": "string" },
+    "severity_score": { "type": "number" },
+    "sectors": { "type": "array", "items": { "type": "string" } },
+    "event_category": { "type": "string" }
+  },
+  "required": [
+    "title",
+    "summary",
+    "countries",
+    "goods",
+    "tariff_rate",
+    "event_date",
+    "severity_score",
+    "sectors",
+    "event_category"
+  ]
+}
+

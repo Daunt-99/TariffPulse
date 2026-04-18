@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pred-001",
+    "eventId": "evt-2026-advanced-manufacturing",
+    "sector": "Industrials",
+    "predictedReactionSpeed": "immediate",
+    "predictedMagnitude": -2.4,
+    "confidence": 0.81,
+    "similarPastEvents": ["evt-2025-steel-escalation", "evt-2024-machinery-review"],
+    "modelName": "xgboost_baseline_v1"
+  },
+  {
+    "id": "pred-002",
+    "eventId": "evt-2026-advanced-manufacturing",
+    "sector": "Information Technology",
+    "predictedReactionSpeed": "lagged",
+    "predictedMagnitude": -1.1,
+    "confidence": 0.73,
+    "similarPastEvents": ["evt-2024-semiconductor-controls", "evt-2025-components-duty-signal"],
+    "modelName": "xgboost_baseline_v1"
+  }
+]
+

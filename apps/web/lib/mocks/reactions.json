@@ -1,0 +1,23 @@
+[
+  {
+    "id": "react-001",
+    "eventId": "evt-2026-advanced-manufacturing",
+    "sector": "Industrials",
+    "abnormalReturn": -1.14,
+    "cumulativeAbnormalReturn": -2.84,
+    "volumeSpike": 1.37,
+    "volatilitySpike": 1.21,
+    "lagLabel": "immediate"
+  },
+  {
+    "id": "react-002",
+    "eventId": "evt-2026-advanced-manufacturing",
+    "sector": "Information Technology",
+    "abnormalReturn": -0.42,
+    "cumulativeAbnormalReturn": -1.18,
+    "volumeSpike": 1.12,
+    "volatilitySpike": 1.06,
+    "lagLabel": "lagged"
+  }
+]
+

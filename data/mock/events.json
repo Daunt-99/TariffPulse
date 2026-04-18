@@ -1,0 +1,31 @@
+[
+  {
+    "id": "evt-2026-advanced-manufacturing",
+    "title": "United States announces targeted tariff review on advanced manufacturing imports",
+    "summary": "A policy review signaled potential tariff increases on selected industrial inputs and electronics components, raising concern for downstream manufacturers and logistics-heavy sectors.",
+    "source": "USTR",
+    "event_date": "2026-04-14",
+    "countries": ["United States", "China"],
+    "goods": ["industrial machinery", "electronics components"],
+    "tariff_rate": 18,
+    "event_category": "tariff_increase",
+    "severity_score": 0.82,
+    "sectors": ["Industrials", "Information Technology", "Materials"],
+    "status": "confirmed"
+  },
+  {
+    "id": "evt-2026-clean-energy-components",
+    "title": "Retaliatory duty proposal expands to battery precursor materials",
+    "summary": "A retaliatory measure broadened the scope of battery supply chain duties, increasing uncertainty for energy transition manufacturers and specialty chemicals names.",
+    "source": "WTO filing",
+    "event_date": "2026-04-11",
+    "countries": ["European Union", "China"],
+    "goods": ["battery materials", "cathode precursors"],
+    "tariff_rate": 12,
+    "event_category": "retaliatory_measure",
+    "severity_score": 0.69,
+    "sectors": ["Materials", "Energy", "Industrials"],
+    "status": "confirmed"
+  }
+]
+

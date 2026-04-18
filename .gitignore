@@ -1,0 +1,34 @@
+# Node
+node_modules/
+.next/
+dist/
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Data / logs
+*.log
+tmp/
+data/generated/
+
+# Build artifacts
+build/
+*.egg-info/
+

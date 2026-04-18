@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink text-slate-100 antialiased;
+  background-image:
+    radial-gradient(circle at top, rgba(142, 167, 255, 0.14), transparent 20%),
+    radial-gradient(circle at right, rgba(124, 247, 212, 0.10), transparent 24%);
+}
+
+.dashboard-panel {
+  @apply rounded-3xl border border-line/70 bg-panel/80 shadow-panel backdrop-blur;
+}
+
+.eyebrow {
+  @apply text-xs uppercase tracking-[0.24em] text-slate-400;
+}
+
